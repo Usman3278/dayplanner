@@ -9,16 +9,22 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
+  border-left: 1px solid rgb(122, 185, 228);
   padding: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://images.unsplash.com/photo-1540921181925-b9726bc32384?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFpbHklMjBwbGFubmVyfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: rgb(245, 189, 6);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid red;
 }
 
 .description {
@@ -38,7 +44,7 @@ textarea {
 
 .hour {
   background-color: #ffffff;
-  color: #000000;
+  color: #f5f7f800;
   border-top: 1px dashed #000000;
 }
 

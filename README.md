@@ -12,10 +12,8 @@ HTML
 CSS
 Javascript
 
+
 Day Planner can be accessed at the following link: https://usman3278.github.io/dayplanner/
 
 Screenshots are uploaded into Assests Folder.
-
-![](images/Dayplanner_BookTime.png)
-
 
