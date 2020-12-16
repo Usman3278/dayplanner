@@ -12,8 +12,10 @@ HTML
 CSS
 Javascript
 
-
 The code quiz can be accessed at the following link: 
 
 Screenshots are uploaded into Assests Folder.
+
+![](images/Dayplanner_BookTime.png)
+
 
