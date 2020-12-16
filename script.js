@@ -1,10 +1,10 @@
 $(document).ready(function () {
-  // *******display present day*********
+  // Present Day //
   var presentDay = $("#currentDay");
   var todayDay = moment().format("dddd, MMMM Do YYYY");
   presentDay.text(todayDay);
 
-  // *******reload previous tasks**********
+  // Previous Task //
   $("#note1").val(localStorage.getItem("task1"));
   $("#note2").val(localStorage.getItem("task2"));
   $("#note3").val(localStorage.getItem("task3"));
@@ -15,7 +15,7 @@ $(document).ready(function () {
   $("#note8").val(localStorage.getItem("task8"));
   $("#note9").val(localStorage.getItem("task9"));
 
-  //*******color code per time**********
+  // Color Code //
   var now = moment().hour();
   if (now < 9) {
     $("#note1").addClass("future");
@@ -132,13 +132,13 @@ $(document).ready(function () {
   }
 });
 
-//********clear local storage and reload*********
+// Clear Local Storage //
 $("#clear").click(function () {
   localStorage.clear();
   location.reload();
 });
 
-// ******saving tasks to local storage***********
+// Save Task to Local Storage //
 $("#saveNote1").click(function () {
   let task = $("#note1").val();
   localStorage.setItem("task1", task);
