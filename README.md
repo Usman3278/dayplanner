@@ -13,7 +13,7 @@ CSS
 Javascript
 
 
-The code quiz can be accessed at the following link: https://usman3278.github.io/codequiz/
+The code quiz can be accessed at the following link: 
 
 Screenshots are uploaded into Assests Folder.
 
