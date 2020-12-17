@@ -6,7 +6,7 @@ This project provides users with a daily planner where they can add their own ev
 
 Enter your notes into the text area for the desired time block and click the save button to save it.
 
-# Languages used to generate code quiz are below.
+# Languages used to generate day planner are below.
 
 HTML
 CSS
